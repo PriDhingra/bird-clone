@@ -43,4 +43,19 @@ Before you can run the Bird-Clone application, make sure you have the following 
 2. Go into the project directory:
 
    ```bash
+   cd bird-clone
+3. Go into the project directory:
+
+   ```bash
    npm install
+
+### Configuration
+
+1. Create a .env file in the root directory of the project and add the following environment variables:
+
+   ```bash
+   DATABASE_URL=YOUR_DATABASE_URL
+   NEXTAUTH_JWT_SECRET=YOUR_NEXTAUTH_JWT_SECRET
+   NEXTAUTH_SECRET=YOUR_NEXTAUTH_SECRET
+
+   Replace YOUR_MONGODB_CONNECTION_STRING with your MongoDB connection string, and YOUR_SESSION_SECRET with a secret key for session management.
