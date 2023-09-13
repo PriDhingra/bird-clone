@@ -58,9 +58,6 @@ Before you can run the Bird-Clone application, make sure you have the following 
    NEXTAUTH_JWT_SECRET=YOUR_NEXTAUTH_JWT_SECRET
    NEXTAUTH_SECRET=YOUR_NEXTAUTH_SECRET
 
-
-   Replace YOUR_MONGODB_CONNECTION_STRING with your MongoDB connection string, and YOUR_SESSION_SECRET with a secret key for session management.
-
 2. Configure Prisma by running the following command and following the prompts:
 
    ```bash
