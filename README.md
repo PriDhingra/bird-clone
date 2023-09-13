@@ -40,3 +40,7 @@ Before you can run the Bird-Clone application, make sure you have the following 
 
    ```bash
    git clone https://github.com/PriDhingra/bird-clone.git
+2. Go into the project directory:
+
+   ```bash
+   npm install
