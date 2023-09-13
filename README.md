@@ -40,14 +40,19 @@ Before you can run the Bird-Clone application, make sure you have the following 
 
    ```bash
    git clone https://github.com/PriDhingra/bird-clone.git
+   ```
+
 2. Go into the project directory:
 
    ```bash
    cd bird-clone
+   ```
+
 3. Go into the project directory:
 
    ```bash
    npm install
+   ```
 
 ### Configuration
 
@@ -58,10 +63,13 @@ Before you can run the Bird-Clone application, make sure you have the following 
    NEXTAUTH_JWT_SECRET=YOUR_NEXTAUTH_JWT_SECRET
    NEXTAUTH_SECRET=YOUR_NEXTAUTH_SECRET
 
+   ```
+
 2. Configure Prisma by running the following command and following the prompts:
 
    ```bash
    npx prisma generate
+   ```
 
 ### Usage
 
@@ -70,8 +78,21 @@ Before you can run the Bird-Clone application, make sure you have the following 
    ```bash
    npm run dev
 
+   ```
+
 2. Access the application in your web browser at http://localhost:3000.
 
 ### Screenshots
 
 Here are some screenshots of Bird-Clone in action:
+
+## Screenshots
+
+Here are some screenshots of Bird-Clone in action:
+
+![Screenshot 1](./images/S1.png)
+![Screenshot 2](./images/S2.png)
+![Screenshot 3](./images/S3.png)
+![Screenshot 4](./images/S7.png)
+![Screenshot 5](./images/S6.png)
+![Screenshot 6](./images/S8.png)
